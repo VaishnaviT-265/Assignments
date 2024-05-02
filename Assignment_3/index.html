@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(images/img1.jpg) ">
+  <div class="center" style="margin-top: 40px">
+    <h1>Application Form</h1>
+    <form id="applicationForm" method="post">
+      <div class="txt_field">
+           <input type="text" name="Name" required>
+           <span></span>
+           <label>Name</label>
+      </div>
+
+      <div class="txt_field">
+           <input type="tel" name="MobileNumber" required>
+           <span></span>
+           <label>Mobile Number</label>
+      </div>
+
+      <div class="txt_field">
+           <input type="email" name="Email" required>
+           <span></span>
+           <label>Email</label>
+      </div>
+
+      <div class="txt_field">
+           <input type="text" name="Address" required>
+           <span></span>
+           <label>Address</label>
+      </div>
+
+      
+      <input type="submit" name="save" value="Submit"></button>
+      <div class="signup_link">
+       
+      </div>
+    </form>
+  </div> 
+  <script src="app.js"></script>
+</body>
+</html>
